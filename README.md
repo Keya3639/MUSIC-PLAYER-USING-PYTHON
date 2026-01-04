@@ -113,4 +113,4 @@ Together, these tools create a smooth, functional music playback experience.
 The **Music Player System** showcases how Python can be used to develop real-world multimedia applications. With **Tkinter, Pygame, and Mutagen,** this project combines **GUI programming, audio handling, and user interaction** in a powerful yet simple tool. With further enhancements, it can evolve into a fully-featured media player.
 
 ## OUTPUT:
-<img width="1186" height="297" alt="Image" src="https://github.com/user-attachments/assets/fcba6a3f-140f-4875-9896-e81d03968800" />
+<img width="1332" height="748" alt="Image" src="https://github.com/user-attachments/assets/2851b90b-eef0-49ea-a79a-c3cdd716f913" />
