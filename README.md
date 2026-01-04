@@ -71,15 +71,15 @@ Together, these tools create a smooth, functional music playback experience.
 - **Good learning project for GUI + Multimedia
 
 ## Limitations
-- **Does not support streaming music yet.
+- Does not support streaming music yet.
 
-- **Limited audio format support compared to full media players.
+- Limited audio format support compared to full media players.
 
-- **No playlist save/load across sessions.
+- No playlist save/load across sessions.
 
-- **Large files may take time to load.
+- Large files may take time to load.
 
-- **Dependent on external libraries like pygame and mutagen.
+- Dependent on external libraries like pygame and mutagen.
 ## Real-Time Applications
 - Personal music player
 
