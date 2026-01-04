@@ -9,14 +9,14 @@ import time
 import threading
 import pyttsx3
 
-pyttsx3.speak(" Hello Friends Welcome to SC Music World")
+pyttsx3.speak(" Hello Friends Welcome to Melody Music World")
 
 main_application = ThemedTk(theme = "breeze")
-main_application.title('SC Music Player')
+main_application.title('Melody Music Player')
 main_application.geometry('600x600')
-main_application.wm_iconbitmap('SC Media Player.ico')
+main_application.wm_iconbitmap('Melody Media Player.ico')
 
-status_bar_label = ttk.Label(main_application, text = '\"Welcome To SC Music World\"', relief = GROOVE, borderwidth = 2, font = ('Times New Roman', 15, 'italic','bold'))
+status_bar_label = ttk.Label(main_application, text = '\"Welcome To Melody Music World\"', relief = GROOVE, borderwidth = 2, font = ('Times New Roman', 15, 'italic','bold'))
 status_bar_label.pack(side = TOP, fill = Y)
 
 button_frame = Frame(main_application)
@@ -403,13 +403,13 @@ def aboutus_func():
     photo = ttk.Label(about_us_dialog, image = music_player_icon)
     photo.pack(side = LEFT)
 
-    text = ttk.Label(about_us_dialog, text = 'SC Music Player', font = ('Times New Roman', 28, 'bold'))
+    text = ttk.Label(about_us_dialog, text = 'Melody Music Player', font = ('Times New Roman', 28, 'bold'))
     text.pack(side = TOP)
 
     text1 = ttk.Label(about_us_dialog, text = 'An Indian Company', font = ('Times New Roman', 14))
     text1.pack(side = TOP)
 
-    text2 = ttk.Label(about_us_dialog, text = 'SC Music Player is a free open source platform for \nmusic ', font = ('Times New Roman', 12))
+    text2 = ttk.Label(about_us_dialog, text = 'Melody Music Player is a free open source platform for \nmusic ', font = ('Times New Roman', 12))
     text2.pack(side = TOP)
 
 status_bar_var = BooleanVar()
@@ -589,5 +589,6 @@ main_application.bind("<Control-o>", browse_file)
 main_application.bind("<Control-Shift-o>", multiple_files)
 main_application.bind("<Control-f>", open_folder)
 main_application.bind("<Control-q>", exit_command)
+
 
 main_application.mainloop()
