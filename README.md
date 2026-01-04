@@ -1,27 +1,35 @@
 # Music-Player-Using-Python
-# GENERATIVE-TEXT-SYSTEM
 
-The **Generative Text System** is a Python-based application that automatically generates human-like text from a given input prompt. Developed using advanced Natural Language Processing (NLP) and deep learning models, this tool produces coherent and contextually relevant text. It is designed to help users with tasks such as content creation, idea generation, conversational responses, and more.
+The **Music Player System** is a Python-based desktop application that allows users to play, pause, stop, and manage audio files through an intuitive graphical interface. Built with Tkinter and Pygame, this tool supports playlists, volume control, track navigation, and real-time audio duration tracking.
+
+This application is ideal for students, developers, hobbyists, and anyone interested in learning how multimedia applications work in Python.
 
 ## Overview
-This system uses a pre-trained language model based on the Transformer architecture, such as GPT-2 or GPT-3, to generate text. The model predicts the next word in a sequence given the previous words, enabling it to create entire passages of meaningful and fluent text.
-
-This project is especially useful for writers, developers, researchers, and professionals who need quick content creation or AI-powered assistance in text generation.
+The Music Player uses **Tkinter** for **GUI design** and **Pygame Mixer** for handling audio playback. Users can browse songs, build playlists, control playback, and view both total duration and current progress of the track.
+It also integrates **Mutagen** for accurately reading MP3 metadata and threading to ensure smooth playback without freezing the interface.
 
 ## Tools and Technologies Used
-- **Python:** The programming language used for the entire project, chosen for its simplicity and rich AI ecosystem.
+- **Python:** Core programming language used for development.
 
-- **Transformers (HuggingFace):** Provides access to state-of-the-art pre-trained models like GPT-2 and GPT-3.
+- **Tkinter:** Provides the graphical user interface (buttons, labels, frames, listboxes).
 
-- **Torch (PyTorch):** Used as the backend deep learning framework to run Transformer models efficiently.
-
+- **ttk & ttkthemes:** Enhance the look and feel with styled widgets and themes.
+  
 - **Tokenizer (from Transformers):** Splits text into tokens and prepares it for model input.
-
-- **Command-line / Console I/O:** Enables user interaction by accepting prompts and displaying generated text.
-
+  
+- **Pygame (mixer):** Handles music loading and playback.
+  
+- **Mutagen:** Reads MP3 metadata and track duration accurately.
+  
+- **Threading:** Keeps UI responsive while music plays.
+  
+- **Pyttsx3:** Adds text-to-speech welcome audio.
+  
+- **OS Module:** Enables user interaction by accepting prompts and displaying generated text.
+  
 ## Why These Tools Were Selected
-- **Transformer models (GPT)** provide state-of-the-art text generation capabilities.
-
+- **Tkinter** is built into Python and makes GUI development simpler.
+  
 - **HuggingFace** Transformers make it easy to integrate pre-trained models without building from scratch.
 
 - **PyTorch** offers flexibility, speed, and GPU acceleration for handling large models.
